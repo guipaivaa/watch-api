@@ -1,6 +1,6 @@
 CREATE TABLE watches
 (
-    id                      VARCHAR(36) PRIMARY KEY,
+    id                      UUID PRIMARY KEY,
     brand                   VARCHAR(100) NOT NULL,
     model                   VARCHAR(100) NOT NULL,
     reference               VARCHAR(100) NOT NULL,
